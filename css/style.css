@@ -241,8 +241,8 @@ input:focus,textarea:focus{outline: 0 none; border: 1px solid var(--main-color);
 }
 .tabs li:hover a{ width: 200px;}
 .tabs li a.about::before {content: " \f102";}
-.tabs li a.resume::before {content: " \f10d";}
-.tabs li a.portfolio::before {content: " \f109"}
+.tabs li a.enterprise::before {content: " \f10d";}
+.tabs li a.brands::before {content: " \f109"}
 .tabs li a.blog::before {content: " \f112";}
 .tabs li a.contact::before {content: " \f105"}
 .tabs li a span {
@@ -573,7 +573,7 @@ span.social-text{
 }
 
 
-/* 6. resume page
+/* 6. enterprise page
 --------------------------------------------------- */
 
 /* ----------- 1.experience area ---------*/
@@ -707,7 +707,7 @@ span.social-text{
 }
 
 
-/* 7. Portfolio page
+/* 7. brands page
 --------------------------------------------------- */
 /* mixitup css */
 .mixitup-button{
@@ -739,14 +739,14 @@ span.social-text{
 	color: var(--main-color)
 }
 .body-wrapper .mixitup-button button:hover {color: var(--main-color);}
-.single-portfolio img {
+.single-brands img {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 }
-.single-portfolio::before {
+.single-brands::before {
 	content: "";
 	background: var(--main-color);
 	width: 100%;
@@ -763,7 +763,7 @@ span.social-text{
 	-o-border-radius: 10px;
 	z-index: 1;
 }
-.single-portfolio:hover::before {opacity: .6;}
+.single-brands:hover::before {opacity: .6;}
 .port-icon {
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -788,7 +788,7 @@ span.social-text{
 	-ms-transition: .3s;
 	-o-transition: .3s;
 }
-.single-portfolio:hover .port-icon{ top: 50%; transition: 0.6s; opacity: 1; visibility: visible; -webkit-transition: 0.6s; -moz-transition: 0.6s; -ms-transition: 0.6s; -o-transition: 0.6s;}
+.single-brands:hover .port-icon{ top: 50%; transition: 0.6s; opacity: 1; visibility: visible; -webkit-transition: 0.6s; -moz-transition: 0.6s; -ms-transition: 0.6s; -o-transition: 0.6s;}
 .port-icon:hover { background: var(--main-color);}
 .port-icon:hover span {color: #ffffff;}
 .port-over-content{
@@ -797,7 +797,7 @@ span.social-text{
 	opacity: 0;
 	transition: 0.6s;
 }
-.single-portfolio:hover .port-over-content {bottom: 0%;opacity: 1;transition: 0.6s;}
+.single-brands:hover .port-over-content {bottom: 0%;opacity: 1;transition: 0.6s;}
 .port-over-content h3{font-size:30px; line-height: 1.2;}
 .port-over-content span {
 	font-size: 15px;
@@ -807,8 +807,8 @@ span.social-text{
 	line-height: 1.4;
 }
 
-/* -------- 1.portfolio details css ------- */
-.portfolio-details-content h2 {
+/* -------- 1.brands details css ------- */
+.brands-details-content h2 {
 	font-size: 36px;
 }
 .meta-wrapper{ border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; }
@@ -822,7 +822,7 @@ span.social-text{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
-.portfolio-details-content {
+.brands-details-content {
 	margin-top: 50px;
 }
 .modal-dialog {

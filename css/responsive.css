@@ -49,7 +49,7 @@
           min-width: 1320px;
           margin: 0 auto;
      }
-     #portfolio .container {
+     #brands .container {
           min-width: auto;
      }
      .hero-content h1 {
@@ -445,20 +445,20 @@
      .blog-posts h2 {
           font-size: 19px;
      }
-     .portfolio-details-sidebar .meta-wrapper {
+     .brands-details-sidebar .meta-wrapper {
           padding-left: 28px;
           padding-right: 15px;
      }
-     .portfolio-details-sidebar {
+     .brands-details-sidebar {
           padding-left: 0;
      }
-     .portfolio-details-sidebar .meta-wrapper .item-meta.pr-30 {
+     .brands-details-sidebar .meta-wrapper .item-meta.pr-30 {
           padding-right: 25px;
      }
-     .portfolio-details-content h2 {
+     .brands-details-content h2 {
           font-size: 28px;
      }
-     .single-portfolio:hover .port-icon {
+     .single-brands:hover .port-icon {
           top: 38%;
      }
      .port-over-content {
@@ -739,7 +739,7 @@
      .single-team {
           margin-bottom: 30px;
      }
-     #resume .content-wrapper-padding {
+     #enterprise .content-wrapper-padding {
           padding-bottom: 30px;
      }
      .blog-page-sidebar {
@@ -775,16 +775,16 @@
      .review-head h3 {
           font-size: 22px;
      }
-     .portfolio-details-content h2 {
+     .brands-details-content h2 {
           font-size: 32px;
      }
-     .portfolio-details-sidebar {
+     .brands-details-sidebar {
           padding-left: 0;
      }
-     #portfolio-list li {
+     #brands-list li {
           width: 49%
      }
-     .single-portfolio:hover .port-icon {
+     .single-brands:hover .port-icon {
           top: 45%;
      }
      .port-over-content {
@@ -1355,7 +1355,7 @@
      .single-team {
           margin-bottom: 30px;
      }
-     #resume .content-wrapper-padding {
+     #enterprise .content-wrapper-padding {
           padding-bottom: 0;
      }
      .single-experience::before {
@@ -1535,12 +1535,12 @@
      .blog-posts-text {
           margin-top: -10px;
      }
-     .portfolio-details-content h2 {
+     .brands-details-content h2 {
           font-size: 23px;
           margin-bottom: 12px;
           line-height: 1.2;
      }
-     .portfolio-details-sidebar {
+     .brands-details-sidebar {
           padding-left: 0;
      }
      .meta-wrapper {
@@ -1551,31 +1551,31 @@
      .meta-wrapper .item-meta.pr-30 {
           padding-right: 20px;
      }
-     .related-portfolio h2 {
+     .related-brands h2 {
           font-size: 26px;
      }
-     .single-related-portfolio {
+     .single-related-brands {
           margin-bottom: 20px;
      }
-     #portfolio-details .content-wrapper-padding {
+     #brands-details .content-wrapper-padding {
           padding: 40px 15px 20px 15px;
      }
-     .related-portfolio {
+     .related-brands {
           margin-top: 40px;
      }
-     .portfolio-details-content {
+     .brands-details-content {
           margin-top: 22px;
      }
-     .portfolio-details-content p.mb-22 {
+     .brands-details-content p.mb-22 {
           margin-bottom: 10px;
      }
-     #portfolio-list li {
+     #brands-list li {
           width: 49%
      }
-     .single-portfolio:hover .port-icon {
+     .single-brands:hover .port-icon {
           top: 50%;
      }
-     #portfolio .ml-15 {
+     #brands .ml-15 {
           margin-left: 0;
      }
      .cats-filter {
@@ -1696,7 +1696,7 @@
      .mixitup-button {
           padding-bottom: 10px;
      }
-     #portfolio .title-margin {
+     #brands .title-margin {
           margin-bottom: 25px;
      }
      .hero-area-height {
@@ -1873,7 +1873,7 @@
           font-size: 15px;
           margin-bottom: 8px;
      }
-     #portfolio-list li {
+     #brands-list li {
           width: 100%;
      }
      .cats-filter li a {
@@ -2131,7 +2131,7 @@
      .port-over-content span {
           margin-bottom: 10px;
      }
-     .single-portfolio .port-over-content {
+     .single-brands .port-over-content {
           padding: 20px 15px;
      }
      .port-icon {
@@ -2237,7 +2237,7 @@
      .blog-posts-text {
           margin-top: -5px;
      }
-     #portfolio-list li {
+     #brands-list li {
           width: 100%
      }
      .port-over-content span {
