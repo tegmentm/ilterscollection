@@ -36,13 +36,7 @@
 
 /* 1. Theme default css
 -------------------------------------------------------------- */
-/* font css */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-@font-face {
-	font-family: "CircularStdBold";
-	src: url(../fonts/CircularStd-Bold/FontsFree-Net-CircularStd-Bold.ttf);
-}
 
 :root{
 	--main-color:#383d41;
@@ -70,7 +64,7 @@ body {
 .solid-bg {background: #96a7c8;}
 h1,h2,h3,h4,h5,h6 {
 	color: var(--primary-color); 
-	font-family: "CircularStdBold";
+    font-weight: 500;
 }
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {color: inherit;}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {color: var(--main-color)}
